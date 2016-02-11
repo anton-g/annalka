@@ -1,4 +1,4 @@
-### annalka
+# annalka
 
 annalka is a jQuery plugin that provides a simple text transformation effect that works by randomizing characters.  
   
@@ -36,13 +36,20 @@ $('#element').annalka("Target String", {
 });
 ```
 
-The options object can also contain a callback method which is invoked when animation finishes:
+The options object can also supports a callback function which is invoked when animation finishes:
 ```javascript
 $('#element').annalka("Target String", {
     callback: function() {
         //Animation finished.
     }
 });
+```
+
+You can also set the options globally:
+```
+$.fn.annalka.defaults.tick = 25;
+$.fn.annalka.defaults.step = 2;
+$.fn.annalka.defaults.chars = 'XYZ';
 ```
 
 ## Todo
