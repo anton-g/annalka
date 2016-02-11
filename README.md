@@ -7,6 +7,11 @@ annalka is a jQuery plugin that provides a simple text transformation effect tha
 **Feedback welcome.**  
 
 ## Installation
+You have to options to install. Either download the source or install via [bower](http://bower.io):
+```
+bower install annalka --save
+```
+
 Include script *after* the jQuery library:
 ```html
 <script src="/path/to/jquery.annalka.js"></script>
