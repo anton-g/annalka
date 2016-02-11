@@ -1,0 +1,25 @@
+{
+  "name": "annalka",
+  "description": "jQuery text transformation effect",
+  "main": "src/jquery.annalka.js",
+  "authors": [
+    "anton-g"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery-plugin",
+    "text"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "annalka",
+  "version": "0.1.0",
+  "description": "jQuery text transformation effect",
+  "main": "src/jquery.annalka.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "text"
+  ],
+  "author": "anton-g",
+  "license": "MIT"
+}
