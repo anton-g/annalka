@@ -22,9 +22,12 @@ $('#element').annalka("Target String");
 You can also customize the behaviour by passing in an optional options object:
 ```javascript
 $('#element').annalka("Target String", {
-    tick: 25, //Time between each randomized letter. Default: 15
-    step: 5, //Number of randomizations before moving towards target length. Default: 4
-    chars: 'ABC' //String with characters to randomize from. Default: A-z0-9
+    //Time between each randomized letter. Default: 15
+    tick: 25,
+    //Number of randomizations before moving towards target length. Default: 4
+    step: 5,
+    //String with characters to randomize from. Default: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+    chars: 'ABC'
 });
 ```
 
